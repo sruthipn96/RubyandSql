@@ -1,0 +1,9 @@
+module Testmodule
+ PI = 3.141592654
+ def Testmodule.tra
+   puts "area #{Testmodule::PI*8}
+   end
+   def Testmodule.ano
+   puts "area #{Testmodule::PI*10}
+   end
+   end

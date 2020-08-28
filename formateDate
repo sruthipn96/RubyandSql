@@ -1,0 +1,12 @@
+SELECT FORMAT (getdate(), 'dd/MM/yyyy ') as date
+SELECT FORMAT (getdate(), 'dd/MM/yyyy, hh:mm:ss ') as date
+SELECT FORMAT (getdate(), 'dddd, MMMM, yyyy') as date
+SELECT FORMAT (getdate(), 'MMM dd yyyy') as date
+SELECT FORMAT (getdate(), 'MM.dd.yy') as date	
+SELECT FORMAT (getdate(), 'MM-dd-yy') as date
+SELECT FORMAT (getdate(), 'hh:mm:ss tt') as date	
+SELECT FORMAT (getdate(), 'd','us') as date
+SELECT FORMAT (getdate(), 'hh') as date
+SELECT FORMAT (getdate(), 'dd') as date
+SELECT FORMAT (getdate(), 'MM') as date
+SELECT FORMAT (getdate(), 'yyyy') as date
